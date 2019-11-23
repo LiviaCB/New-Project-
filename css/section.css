@@ -1,0 +1,74 @@
+.texto{
+    
+    width: 25%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 2vw;
+}
+
+.resumo {
+    padding: 1vw;
+}
+
+
+.blog{
+   width: 55%;
+    padding-bottom: 5vw;
+    border: 1px solid #ccc;
+    margin-bottom: 2vw;
+    margin-left: 10vw;
+    height: 50vh;
+}
+
+
+.imagem{
+    border:1px solid #ccc;
+    height: 60%;
+    width: 100%;
+    background-image:url(../imagem/750x300.png);
+    background-size: cover;
+    padding-bottom: 2vw;
+    
+}
+
+.blogtitle{
+    margin: 1vw;
+}
+
+button{
+    margin-top: .5vw;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;}
+
+
+footer {
+    border-top: 1px solid black;
+    display: block;
+    padding: 10px;
+    background-color:lightgray;
+    color: #6c757d;
+}
+
+.info{
+    width: 15%;
+    padding-bottom: 5vw;
+    border: 1px solid #ccc;
+    height: 20vh;
+    display:flex;
+    
+}
+.card{
+    widht:10%;
+    padding:5vw;
+}
